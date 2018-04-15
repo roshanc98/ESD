@@ -1,0 +1,48 @@
+EMBEDDED SYSTEMS PROJECT
+
+MADE BY - 
+JAPNIT AHLUWALIA (160953170)
+ROSHAN CHEMBAKASSERIL (160953156)
+YASH AGARWAL (160953162)
+
+CCE 'B' 
+SEM IV
+MANIPAL INSTITUTE OF TECHNOLOGY, MANIPAL
+
+INTRODUCTION:
+
+An infrared sensor is an electronic instrument which is used to sense certain characteristics of its surroundings by either 
+emitting and/or detecting infrared radiation. Infrared sensors are also capable of measuring the heat being emitted by an object 
+and detecting motion. In this project, we interface a IR sensor with an LPC 1768 ARM Microcontroller to detect the distance of an
+object from the sensor. The aim of this project is -
+
+- To comprehend the software development for ARM cortex-M microcontroller using embedded C language.
+- To understand various interfacing circuits necessary for various applications and programming using ARM.
+- To learn how to configure an Analog to Digital Converter (ADC) to convert analog input from a IR sensor and display it in 
+  digital format with the help of an LCD.
+  
+ 
+SHARP IR SENSOR:
+The GP2Y0A21 Sharp distance sensor is a great way to add obstacle avoidance or motion sensing to your robot or any other project.
+It has a detection range of 4′′ to 32′′ (10cm to 80cm) and an analog voltage indicating the distance.
+
+- Operating voltage: 4.5 V to 5.5 V
+- Average current consumption: 30 mA (note: this sensor draws current in large, short bursts, and the manufacturer recommends 
+  putting a 10 μF capacitor or larger across power and ground close to the sensor to stabilize the power supply line)
+- Distance measuring range: 10 cm to 80 cm (4′′ to 32′′)
+- Output type: analog voltage
+- Output voltage differential over distance range: 1.9 V (typical)
+- Update period: 38 ± 10 ms
+- Size: 44.5 mm × 18.9 mm × 13.5 mm (1.75′' × 0.75′′ × 0.53′′)
+- Weight: 3.5 g (0.12 oz)
+
+MICROCONTROLLER (NXP LPC1768):
+The LPC1768 is a Cortex-M3 microcontroller for embedded applications featuring a high level of integration and low power 
+consumption at frequencies of 100 MHz. Features include 512 kB of flash memory, 64 kB of data memory, Ethernet MAC, USB
+Device/Host/OTG, 8-channel DMA controller, 4 UARTs, 2 CAN channels, 3 SSP/SPI, 3 I2C, I2S, 8-channel 12-bit ADC, 10-bit DAC, 
+motor control PWM, Quadrature Encoder interface, 4 general purpose timers, 6-output general purpose PWM, ultra-low power 
+Real-Time Clock with separate battery supply, and up to 70 general purpose I/O pins. The LPC1768 is pin-compatible to the 
+100-pin LPC2368 ARM7 MCU.
+
+
+  
